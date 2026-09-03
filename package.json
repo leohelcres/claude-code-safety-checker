@@ -1,0 +1,24 @@
+{
+  "name": "claude-code-safety-checker",
+  "version": "0.1.0",
+  "description": "A dependency-free CLI that flags common safety risks in AI coding-agent instruction files.",
+  "type": "module",
+  "bin": {
+    "claude-code-safety-checker": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "claude-code",
+    "ai-agents",
+    "security",
+    "prompt-injection",
+    "developer-tools"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
